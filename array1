@@ -1,0 +1,13 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class Array1 {
+       public static void main (String argv[]) {
+              int cont;
+              int[] dados;
+              dados = {1, 2, 3, 4, 5, 6};
+              for (cont = 0; cont < dados.length; cont++ ){
+                    System.out.println(dados[cont]);
+              }
+       }
+}
